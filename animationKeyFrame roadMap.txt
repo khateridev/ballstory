@@ -1,0 +1,46 @@
+step1:	1%	left:8.5% + bottom:inherit	// 8.5% MOVE
+
++ CLOCK 1 :   1% ~ 13% +12
+step2:	5% +4		bottom:0 , left +10%		// 10%  MOVE     &     100%  DOWN
+step3: 	5.5% +0.5		width: +60% , height: -60%		// 60%  SPREAD BALL
+step4: 	7.5% +2		width: inherit , height: inherit		// Fixed Ball :)
+step5: 	12% +4.5		bottom:80% , left +20% (+10)		// 20%  MOVE     &     80%  UP
+step6: 	13% +1		bottom:80% , left +22% (+2)		// 22%  MOVE     &     80%  UP
+
++ CLOCK 2 :   13% ~ 25% +12
+step7:	17% (+4)		bottom:0 , left +32%	 (+10)	// 32%  MOVE     &     100%  DOWN
+step8:	17.5% (+0.5)	width: +40% , height: -40%	// 40%  SPREAD BALL
+step9:	19.5% (+2)	width: inherit , height: inherit	// Fixed Ball :)
+step10:	24% (+4.5)	bottom:60% , left +42% (+10)	// 42%  MOVE     &     60%  UP
+step11:	25% (+1)		bottom:60% , left +44% (+2)	// 44%  MOVE     &     60%  UP
+
++ CLOCK 3 :   25% ~ 37% +12
+step12:	29% (+4)		bottom:0 , left +54%	 (+10)	// 32%  MOVE     &     100%  DOWN
+step13:	29.5% (+0.5)	width: +20% , height: -20%	// 20%  SPREAD BALL
+step14:	31.5% (+2)	width: inherit , height: inherit	// Fixed Ball :)
+step15:	36% (+4.5)	bottom:35% , left +64% (+10)	// 42%  MOVE     &     35%  UP
+step16:	37% (+1)		bottom:35% , left +66% (+2)	// 43%  MOVE     &     35%  UP
+
++ CLOCK 4 :   37% ~ 49% +12
+step17:	41% (+4)		bottom:0 , left +71%	 (+5)	// 71%  MOVE     &     100%  DOWN
+step18:	41.5% (+0.5)	width: +10% , height: -10%	// 10%  SPREAD BALL
+step19:	43.5% (+2)	width: inherit , height: inherit	// Fixed Ball :)
+step21:	48% (+4.5)	bottom:7% , left +76% (+5)	// 76%  MOVE     &     7%  UP
+step22:	49% (+1)		bottom:7% , left +77% (+1)	// 78%  MOVE     &     7%  UP
+
++ CLOCK 5 :   49% ~ 61% +12
+step23:	53% (+4)		bottom:0 , left +80%	 (+3)		// 80%  MOVE     &     100%  DOWN
+step24:	53.5% (+0.5)	width: +5% , height: -5%			// 5%  SPREAD BALL
+step25:	55.5% (+2)	width: inherit , height: inherit			// Fixed Ball :)
+step26:	60% (+4.5)	bottom:3% , left +83% (+3)			// 83%  MOVE     &     3%  UP
+step27:	61% (+1)		bottom:3% , left +83.5% (+0.5)		// 83.5%  MOVE     &     3%  UP
+
++ CLOCK 6 :   61% ~ 73% +12
+step28:	65% (+4)		bottom:0 , left +86.5% (+3)	// 86.5%  MOVE     &     100%  DOWN
+step29:	85% (+20)	bottom:0% , left +92% (+5.5)	// 92%  MOVE     &     0%  UP
+
++ Final Step (30):
+	100% (+15) 	background: blue & box-shadow: blue
+
+
+
