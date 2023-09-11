@@ -5,7 +5,7 @@ Dev By: Amir Hossein Khateri - 14001006
 Description: create with keyframes transition and position, but if you use transform property instead of position for moving a ball is better.z
 */
 
-/* Settings : */
+/* Settings: */
 :root {
    --ballSize: 50px;
    --animationTime: 10s;
